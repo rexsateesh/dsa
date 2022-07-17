@@ -1,7 +1,7 @@
 # Algorithms and Data Structure
 Algorithms And DataStructure
 
-/*
+## Topics
 Sorting (selection, insertion, merge, heap, etc.)
 Stacks & Queues
 Linked Lists
@@ -10,7 +10,7 @@ Hash tables
 Bit manipulation
 Dynamic Programming
 Backtracking
-*/
+
 
 ## Asymptotic Notation
 #### Big Oh Notation (O):
@@ -18,7 +18,7 @@ Formula: **fn(n) = O(g(n))**
 Case: Worst case
 Upper Bound: c.g(n) (Function never grows faster than the upper bound)
 Must true:
- fn(n) <= c.g(n)
+` fn(n) <= c.g(n)`
 
 For all n >= no (N not) and c > 0
 c must be equal to or greater than 0
@@ -29,7 +29,7 @@ Formula: **fn(n) = Ω(g(n))**
 Case: Best case
 Lower Bound: c.g(n) (Function never grows slowest than the lower bound)
 Must true:
- fn(n) >= c.g(n)
+ `fn(n) >= c.g(n)`
 
 For all n >= no (N not) and c > 0
 c must be equal to or greater than 0
@@ -40,7 +40,7 @@ Formula: **fn(n) = θ(g(n))**
 Case: Average case
 Lower and Upper Bound: c1.g(n) and c2.g(n) (Function never grows slowest/faster than the lower bound and upper bound)
 Must true:
- c1.g(n) <= fn(n) <= c2.g(n)
+ `c1.g(n) <= fn(n) <= c2.g(n)`
 
 For all n >= no (N not) and c > 0
 c must be equal to or greater than 0
